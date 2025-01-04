@@ -251,22 +251,16 @@ public class OpeatingSystems extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void RunAlgorithmActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RunAlgorithmActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_RunAlgorithmActionPerformed
+    private void RunAlgorithmActionPerformed(java.awt.event.ActionEvent evt) {
+       
+    }
+     
+    private void AddProcessInTableActionPerformed(java.awt.event.ActionEvent evt) {
 
-    private void AddProcessInTableActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AddProcessInTableActionPerformed
-        model = (DefaultTableModel) Table.getModel();
-        
-        
-     String number =   NumberProcess.getText().toString();
-     String CPU = CPUTime.getText().toString();
-      model.addRow(new Object[]{"p"+number,CPU,0,0});
-    }//GEN-LAST:event_AddProcessInTableActionPerformed
+         
+    }
 
-    /**
-     * @param args the command line arguments
-     */
+   
     
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
